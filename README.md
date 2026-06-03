@@ -17,3 +17,12 @@ Then visit http://localhost:8000
 - `index.html` — page markup
 - `styles.css` — styling
 - `script.js` — interactivity
+- `CNAME` — GitHub Pages custom domain (`womanschapter.co.uk`)
+
+## Images to add
+
+The hero workbook mockup and the "Is this for you?" lifestyle image are currently CSS placeholders. To replace them:
+
+1. Add an `images/` folder.
+2. Drop in your workbook mockup (e.g. `images/workbook.png`) and lifestyle photo (e.g. `images/calm-corner.jpg`).
+3. In `index.html`, replace the `.workbook-mockup` and `.image-placeholder` blocks with `<img>` tags pointing at those files.
