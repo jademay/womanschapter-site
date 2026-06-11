@@ -353,8 +353,6 @@ nav {
 }
 
 .for-you-image {
-    aspect-ratio: 4 / 5;
-    background-color: var(--color-bg-alt);
     border-radius: 4px;
     overflow: hidden;
     display: flex;
@@ -364,8 +362,7 @@ nav {
 
 .for-you-image img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: auto;
     display: block;
 }
 
