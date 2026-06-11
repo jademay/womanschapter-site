@@ -109,6 +109,13 @@ a:hover {
     line-height: 1.7;
 }
 
+.hero-includes {
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    color: var(--color-muted);
+    line-height: 1.6;
+}
+
 em {
     font-style: italic;
 }
@@ -210,6 +217,12 @@ nav {
     margin-top: 2rem;
 }
 
+.hero-reassurance {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: var(--color-muted);
+}
+
 .section {
     padding: 7rem 0;
 }
@@ -290,8 +303,11 @@ nav {
     margin-bottom: 0;
 }
 
-.section-intro {
+.section-start {
     background-color: var(--color-bg-alt);
+}
+
+.section-intro {
     text-align: center;
 }
 
