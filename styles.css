@@ -261,6 +261,10 @@ nav {
     text-align: center;
 }
 
+.section-for-you {
+    background-color: var(--color-bg-alt);
+}
+
 .pillars {
     list-style: none;
     display: grid;
@@ -388,10 +392,6 @@ nav {
     padding: 2rem;
     font-size: 0.95rem;
     line-height: 1.6;
-}
-
-.section-resources {
-    background-color: var(--color-bg-alt);
 }
 
 .card-grid {
